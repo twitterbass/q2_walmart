@@ -3,6 +3,8 @@ git clone https://github.com/twitterbass/q2_walmart.git
 
 cd q2_walmart-main 
 
+export JAVA_HOME=`/usr/libexec/java_home`
+
 javac -d . ReservationSystem.java 
 
 javac *.java 
